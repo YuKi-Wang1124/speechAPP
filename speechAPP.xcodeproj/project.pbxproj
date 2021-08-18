@@ -12,11 +12,11 @@
 		CC577EAD26CD6B5E002C97C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC577EAC26CD6B5E002C97C7 /* ViewController.swift */; };
 		CC577EB026CD6B5E002C97C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC577EAE26CD6B5E002C97C7 /* Main.storyboard */; };
 		CC577EB326CD6B5E002C97C7 /* speechAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC577EB126CD6B5E002C97C7 /* speechAPP.xcdatamodeld */; };
-		CC577EB526CD6B63002C97C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC577EB426CD6B63002C97C7 /* Assets.xcassets */; };
 		CC577EB826CD6B63002C97C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC577EB626CD6B63002C97C7 /* LaunchScreen.storyboard */; };
 		CC577EC326CD6B63002C97C7 /* speechAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC577EC226CD6B63002C97C7 /* speechAPPTests.swift */; };
 		CC577ECD26CD6B63002C97C7 /* speechAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC577ECC26CD6B63002C97C7 /* speechAPPUITests.swift */; };
 		CC577ECF26CD6B63002C97C7 /* speechAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC577ECE26CD6B63002C97C7 /* speechAPPUITestsLaunchTests.swift */; };
+		CCFA395526CD8F6E0097EDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFA395426CD8F6D0097EDEC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		CC577EAC26CD6B5E002C97C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC577EAF26CD6B5E002C97C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC577EB226CD6B5E002C97C7 /* speechAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = speechAPP.xcdatamodel; sourceTree = "<group>"; };
-		CC577EB426CD6B63002C97C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC577EB726CD6B63002C97C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC577EB926CD6B63002C97C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC577EBE26CD6B63002C97C7 /* speechAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speechAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		CC577EC826CD6B63002C97C7 /* speechAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speechAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC577ECC26CD6B63002C97C7 /* speechAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speechAPPUITests.swift; sourceTree = "<group>"; };
 		CC577ECE26CD6B63002C97C7 /* speechAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speechAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCFA395426CD8F6D0097EDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				CC577EAA26CD6B5E002C97C7 /* SceneDelegate.swift */,
 				CC577EAC26CD6B5E002C97C7 /* ViewController.swift */,
 				CC577EAE26CD6B5E002C97C7 /* Main.storyboard */,
-				CC577EB426CD6B63002C97C7 /* Assets.xcassets */,
+				CCFA395426CD8F6D0097EDEC /* Assets.xcassets */,
 				CC577EB626CD6B63002C97C7 /* LaunchScreen.storyboard */,
 				CC577EB926CD6B63002C97C7 /* Info.plist */,
 				CC577EB126CD6B5E002C97C7 /* speechAPP.xcdatamodeld */,
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC577EB826CD6B63002C97C7 /* LaunchScreen.storyboard in Resources */,
-				CC577EB526CD6B63002C97C7 /* Assets.xcassets in Resources */,
+				CCFA395526CD8F6E0097EDEC /* Assets.xcassets in Resources */,
 				CC577EB026CD6B5E002C97C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
